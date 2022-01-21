@@ -1,0 +1,5 @@
+.DS_Store
+vendor/*
+.vscode/*
+!vendor/autoload.php
+!.vscode/launch.json
