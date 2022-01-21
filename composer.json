@@ -1,0 +1,45 @@
+{
+    "name": "tommcfarlin/wp-plugin-scaffold",
+    "description": "TODO The description for the plugin scaffolded by this repository.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/tommcfarlin/wp-plugin-scaffold/",
+    "authors": [
+      {
+        "name": "Tom McFarlin",
+        "email": "tom@tommcfarlin.com",
+        "homepage": "https://tommcfarlin.com"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/tommcfarlin/wp-plugin-scaffold/issues"
+    },
+    "config": {
+      "preferred-install": "dist",
+      "platform": {
+          "php": "8.0"
+      },
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ],
+    "require": {
+      "php": "8.0",
+      "composer/installers": "^1.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "spatie/ray": "^1.29.0"
+    },
+    "autoload": {
+		"psr-4": {
+		}
+	},
+    "minimum-stability": "stable"
+  }
